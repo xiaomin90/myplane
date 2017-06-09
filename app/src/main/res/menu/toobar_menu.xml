@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_item"
+        android:icon="@drawable/ic_brightness_6_black_24dp"
+        android:title="show"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/remo_item"
+        android:icon="@drawable/ic_calendar_white_24dp"
+        android:title="hide"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/more_item"
+        android:icon="@drawable/ic_content_copy_black_24dp"
+        android:title="moredetail"
+        app:showAsAction="never"
+        />
+</menu>

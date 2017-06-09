@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="cn.minjs.com.myplane.ui.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_shuffle_white_24dp"
+        android:orderInCategory="50"
+        android:title="@string/action_settings"
+        app:showAsAction="always"
+        >
+        <!--<menu>-->
+            <!--&lt;!&ndash; 将group中的菜单项放于一个组里面 &ndash;&gt;-->
+            <!--<group>-->
+                <!--<item-->
+                    <!--android:id="@+id/toolbar_r_1"-->
+                    <!--android:icon="@drawable/ic_shuffle_white_24dp"-->
+                    <!--android:title="登录"-->
+                    <!--app:showAsAction="ifRoom"-->
+                    <!--/>-->
+                <!--<item-->
+                    <!--android:id="@+id/toolbar_r_2"-->
+                    <!--android:icon="@drawable/ic_shuffle_white_24dp"-->
+                    <!--android:title="注册"-->
+                    <!--app:showAsAction="ifRoom"-->
+                    <!--/>-->
+                <!--<item-->
+                    <!--android:id="@+id/toolbar_r_3"-->
+                    <!--android:icon="@drawable/ic_shuffle_white_24dp"-->
+                    <!--android:title="设置"-->
+                    <!--app:showAsAction="ifRoom"-->
+                    <!--/>-->
+            <!--</group>-->
+        <!--</menu>-->
+    </item>
+    <!--<item android:id="@+id/action_feel_lucky"-->
+    <!--android:title="@string/feel_lucky"-->
+    <!--android:icon="@drawable/ic_shuffle_white_24dp"-->
+    <!--android:orderInCategory="50"-->
+    <!--app:showAsAction="never"/>-->
+</menu>
