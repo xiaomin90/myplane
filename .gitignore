@@ -1,0 +1,15 @@
+*.iml
+.gradle
+.idea
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/zhumu-common-lib/build
+/zhumu-sdk/build
+/zhumu-common-lib
+/zhumu-sdk
+*.apk
